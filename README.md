@@ -49,6 +49,8 @@
 
 `conda install -c bioconda subread`
 
+`conda install -c bioconda -y seqkit`
+
 `conda install bioconda::gffread`
 
 `conda install -c anaconda perl`

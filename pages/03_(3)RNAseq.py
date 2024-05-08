@@ -12,9 +12,6 @@ import altair as alt
 from Bio.Blast import Applications
 import matplotlib.pyplot as plt
 import collections.abc
-from pptx import Presentation
-from pptx.enum.shapes import MSO_SHAPE
-from pptx.util import Cm,Pt
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.abspath(os.path.join(current_dir,os.pardir))

@@ -91,6 +91,10 @@
 
 `tar xf ProtHint-2.6.0.tar.gz`
 
+# protein dbのインストール
+
+`https://bioinf.uni-greifswald.de/bioinf/partitioned_odb11/`
+
 # UTM上の共有Fの設定コマンド
 
 `sudo mount -t 9p -o trans=virtio share {/home/****/path_to_folder @UTM側 } -oversion=9p2000.L`
