@@ -233,7 +233,7 @@ def blastN():
     #解析データの表示
         df = pd.read_table(f'{base_path}/Result/{fname}2.txt',header=None)
         df.columns = [['検索配列名','開始位置','終了位置','ヒット領域名','開始位置_','終了位置_','マッチ数','%','Bitscore','Evalue','ヒット領域配列']]
-        df.to_excel(f'{base_path}/Result/{fname}2.xlsx',index=None)
+        df.to_excel(f'{base_path}/Result/{fname}2.xlsx')
         df2 = pd.read_excel(f'{base_path}/Result/{fname}2.xlsx')
         st.write('検索結果')
         if option_use == '使用':
@@ -317,7 +317,7 @@ def blastX():
     #解析データの表示
         df = pd.read_table(f'{base_path}/Result/{fname}2.txt',header=None)
         df.columns = [['検索配列名','開始位置','終了位置','ヒット領域名','開始位置_','終了位置_','マッチ数','%','Bitscore','Evalue','ヒット領域配列']]
-        df.to_excel(f'{base_path}/Result/{fname}2.xlsx',index=None)
+        df.to_excel(f'{base_path}/Result/{fname}2.xlsx')
         df2 = pd.read_csv(f'{base_path}/Result/{fname}2.xlsx')
         st.write('検索結果')
         if option_use == '使用':
