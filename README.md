@@ -95,6 +95,8 @@
 
 `conda install -c eumetsat perl-yaml-xs`
 
+`conda install bioconda::clustalo`
+
 `pip install Pillow`
 
 `pip install openpyxl`
